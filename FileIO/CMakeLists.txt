@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( fileIO )
+find_package( OpenCV REQUIRED )
+add_executable( fileIO fileIO.cpp )
+target_link_libraries( fileIO  ${OpenCV_LIBS} )

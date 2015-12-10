@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( mux )
+find_package( OpenCV REQUIRED )
+add_executable( mux mux.cpp )
+target_link_libraries( mux  ${OpenCV_LIBS} )

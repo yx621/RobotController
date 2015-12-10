@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( camera1 )
+find_package( OpenCV REQUIRED )
+add_executable( camera1 camera1.cpp )
+target_link_libraries( camera1  ${OpenCV_LIBS} )

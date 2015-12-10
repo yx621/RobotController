@@ -1,0 +1,1 @@
+/home/yongxin/Documents/opencv/yossi/mulProcessRobot/camera1/CMakeFiles/camera1.dir

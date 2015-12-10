@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( savevd )
+find_package( OpenCV REQUIRED )
+add_executable( savevd savevd.cpp )
+target_link_libraries( savevd  ${OpenCV_LIBS} )
